@@ -379,16 +379,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-two-papers-has-been-accepted-by-icml",
+          title: 'Two papers has been accepted by ICML.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-acmm-2025-competition-for-adversarial-attacks-on-deepfake-detectors-challenge",
+          title: 'Our team (MR-CAS) won the 1st place in ACMM 2025 Competition for Adversarial...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-ijcai-2025-workshop-amp-amp-challenge-on-deepfake-detection-localization-and-interpretability-generative-large-model-security-track",
+          title: 'Our team (MR-CAS) won the 1st place in IJCAI 2025 Workshop &amp;amp;amp; Challenge...',
+          description: "",
+          section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-iccv-2025-competition-for-real-world-raw-denoising-challenge",
+          title: 'Our team (MR-CAS) won the 1st place in ICCV 2025 Competition for Real-World...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -448,6 +449,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/chibaolekeshui", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/chibaoke", "_blank");
         },
       },{
         id: 'social-scholar',
