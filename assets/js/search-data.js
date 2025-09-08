@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research",
-          title: "Research",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/research/";
-          },
         },{id: "nav-awards",
           title: "Awards",
           description: "",
@@ -37,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-students",
+          title: "Students",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/Students/";
           },
         },{id: "post-a-post-with-image-galleries",
         
@@ -379,7 +372,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-two-papers-has-been-accepted-by-icml",
+            },},{id: "news-one-paper-has-been-accepted-by-aaai-2025",
+          title: 'One paper has been accepted by AAAI 2025.',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-by-cvpr-2025",
+          title: 'One paper has been accepted by CVPR 2025.',
+          description: "",
+          section: "News",},{id: "news-two-papers-has-been-accepted-by-icml",
           title: 'Two papers has been accepted by ICML.',
           description: "",
           section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-acmm-2025-competition-for-adversarial-attacks-on-deepfake-detectors-challenge",
@@ -387,6 +386,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-ijcai-2025-workshop-amp-amp-challenge-on-deepfake-detection-localization-and-interpretability-generative-large-model-security-track",
           title: 'Our team (MR-CAS) won the 1st place in IJCAI 2025 Workshop &amp;amp;amp; Challenge...',
+          description: "",
+          section: "News",},{id: "news-our-paper-was-honored-with-the-best-paper-award-at-the-2025-china-conference-on-multimedia-chinamm-2025",
+          title: 'Our paper was honored with the Best Paper award at the 2025 China...',
           description: "",
           section: "News",},{id: "news-our-team-mr-cas-won-the-1st-place-in-iccv-2025-competition-for-real-world-raw-denoising-challenge",
           title: 'Our team (MR-CAS) won the 1st place in ICCV 2025 Competition for Real-World...',
@@ -448,7 +450,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/chibaolekeshui", "_blank");
+          window.open("https://github.com/alphaprime", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -462,7 +464,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=P8iREHEAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
